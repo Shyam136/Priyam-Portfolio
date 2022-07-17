@@ -25,7 +25,8 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+     /* color: #f05f40; */
+    color: #140f59;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +34,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    /* Default color color: #eb3812; */
+    color: #140f59;
 }
 
 h1,
@@ -52,7 +54,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    /* Default color background-color: #f05f40; */
+    background-color: #140f59;
 }
 
 .bg-dark {
@@ -274,7 +277,8 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    /* background: rgba(240,95,64,.9); */
+    background: rgba(77, 49, 139, 0.784);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -471,6 +475,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
+/* body {
     webkit-tap-highlight-color: #222;
-}
+} */
